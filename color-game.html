@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="css/color-game.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<div class="container text-center " >
+		<div class="jumbotron">
+			<h1>The Great <span id="pickedColorDisplay"></span>RGB Color Game</h1>
+		</div>
+
+
+
+			<div class="row">
+				<div class="col-sm-12">
+				<button type="button" class="btn btn-default" id="reset">Reset Colors</button>
+				<button type="button" class="btn btn-default" id="easy">Easy</button>
+				<button id="hard" class="btn btn-success ">Hard</button>
+			</div>
+		</div>
+		<div class="row">
+			<br /><br />
+			<div class="col-sm-12 text-center">
+				<span class="well well-sm" id="message">Guess the Color Code</span>
+			</div>
+
+			</div>
+<br /><br />
+
+
+	</div>
+	<div id="cont">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+
+<script type="text/javascript" src="js/color-game.js"></script>
+
+</body>
+<html>

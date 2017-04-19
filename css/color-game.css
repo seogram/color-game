@@ -1,0 +1,65 @@
+body {
+  background-color: #232323 !important;
+  font-family: 'Roboto', sans-serif;
+}
+.jumbotron{
+  background-color: blue !important;
+  padding:1em !important;
+  margin-top:1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-default:hover {
+    color: #ffffff !important;
+    background-color: gray !important;
+    border-color: #337ab7;
+  }
+.btn-default{
+  letter-spacing: 1.2px;
+  border:none !important;
+  transition: all 0.8s ;
+}
+
+.btn-success{
+  letter-spacing: 1.2px;
+  border:none !important;
+  transition: all 0.8s ;
+}
+ .jumbotron h1 {
+
+  color:white !important;
+}
+ @media screen and (max-width: 768px){
+
+ }
+.square{
+  background-color: purple;
+  width:30%;
+  float:left;
+  border-radius: 20px;
+  padding-bottom: 30%;
+  margin:1.66%;
+  transition: background 1.5s;
+}
+#cont{
+  max-width:600px;
+  margin : 0 auto;
+}
+h1 {
+  color:white !important;
+
+}
+#stripe{
+  background-color: white;
+  height:30px;
+  text-align: center;
+  color:black;
+}
+.selected{
+  background-color: blue;
+}
+
+.label{
+  font-size: 17px !important;
+  text-align:center;
+}
